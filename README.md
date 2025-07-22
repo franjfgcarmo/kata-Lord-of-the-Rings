@@ -18,7 +18,7 @@ El objetivo principal de este kata es refactorizar el código que tenemos para o
 
 ## Lo que estamos tratando de resolver
 
-1. Se nos ha pedido agregar una nueva raza: enano. Tienen nombre, pero no pueden poseer El Anillo Único. Su fuerza será 20. La clase actual `Character.cs` está bastante desordenada y has notado que rompe todos los principios SOLID. Refactorízala, para que no necesites agregar más `if/switch` al código.
+1. Se nos ha pedido agregar una nueva raza: `Dwarf`. Tienen nombre, pero no pueden poseer El Anillo Único y son de los buenos. Su fuerza será 20. La clase actual `Character.cs` está bastante desordenada y has notado que rompe todos los principios SOLID. Refactorízala, para que no necesites agregar más `if/switch` al código.
 2. ¿Podrías eliminar todas las declaraciones `if` y `switch`?
 3. El Anillo Único es precisamente eso: único. Trata de refactorizar el código, para asegurar que no pueda haber más de uno
 4. ¿Cómo asegurarías que un ejército esté formado solo por la misma alineación?

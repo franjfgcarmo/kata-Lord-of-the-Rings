@@ -1,24 +1,24 @@
-# Lord of the Rings - Kata
+# El Señor de los Anillos - Kata
 
-## Description
+## Descripción
 
-The main goal of this kata is to refactor the code we have in order to get an easier to maintain code base.
+El objetivo principal de este kata es refactorizar el código que tenemos para obtener una base de código más fácil de mantener.
 
-## What we need
+## Lo que necesitamos
 
-- [.NET Core 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+- [.NET 8](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - Visual Studio / Rider
 
-## Requisites
+## Requisitos
 
-- `Domain` classes and enums may change (in fact, they should)
-- `Application` classes should not change, until step 4
-- Tests in `TheseTestsShouldNotBeChanged.cs` should not be changed
-- Tests in `SomeOfTheseTestsMayChange.cs` should be changed in steps 3 and 4
+- Las clases del `Dominio` y los enums pueden cambiar (de hecho, deberían)
+- Las clases de `Aplicación` no deben cambiar, hasta el paso 4
+- Las pruebas en `TheseTestsShouldNotBeChanged.cs` no deben ser cambiadas
+- Las pruebas en `SomeOfTheseTestsMayChange.cs` deben ser cambiadas en los pasos 3 y 4
 
-## What we are trying to solve
+## Lo que estamos tratando de resolver
 
-1. We have been asked to add a new race: dwarf. They have name, but the can't own The One Ring. Their strength will be 20. The current `Character.cs` class is quite messy and you have noticed that it breaks all SOLID principles. Refactor it, so you don't need to add more `if/switch` to the code.
-2. Could you remove all `if` and `switch` statements?
-3. The One Ring is just that: one. Try to refactor the code, in order to make sure there can't be more than one
-4. How would you ensure an army is just built up on the same alignment?
+1. Se nos ha pedido agregar una nueva raza: enano. Tienen nombre, pero no pueden poseer El Anillo Único. Su fuerza será 20. La clase actual `Character.cs` está bastante desordenada y has notado que rompe todos los principios SOLID. Refactorízala, para que no necesites agregar más `if/switch` al código.
+2. ¿Podrías eliminar todas las declaraciones `if` y `switch`?
+3. El Anillo Único es precisamente eso: único. Trata de refactorizar el código, para asegurar que no pueda haber más de uno
+4. ¿Cómo asegurarías que un ejército esté formado solo por la misma alineación?

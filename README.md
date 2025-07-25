@@ -2,7 +2,8 @@
 
 ## Descripción
 
-El objetivo principal de este kata es refactorizar el código que tenemos para obtener una base de código más fácil de mantener.
+El objetivo principal de este kata es refactorizar el código que tenemos para obtener una base de código más fácil de mantener y sin romper los test (código producción) en cada iteración.
+La idea es refactorizar poco a poco entre todos y no diseñar o pensar en una idea super compleja de primeras. Seguramente, una vez el código este refactorizado, podremos hablar de siguientes pasos.
 
 ## Lo que necesitamos
 
@@ -22,3 +23,4 @@ El objetivo principal de este kata es refactorizar el código que tenemos para o
 2. ¿Podrías eliminar todas las declaraciones `if` y `switch`?
 3. El Anillo Único es precisamente eso: único. Trata de refactorizar el código, para asegurar que no pueda haber más de uno
 4. ¿Cómo asegurarías que un ejército esté formado solo por la misma alineación?
+
